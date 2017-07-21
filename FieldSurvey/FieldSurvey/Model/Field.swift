@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum Survey: String {
+enum Field: String {
     case amphibian
     case bird
     case fish
