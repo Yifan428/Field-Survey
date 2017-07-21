@@ -18,6 +18,7 @@
 		3C0040931F21A497007DFB6D /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C0040921F21A497007DFB6D /* field_observations.json */; };
 		3C0040971F21A887007DFB6D /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0040961F21A887007DFB6D /* Survey.swift */; };
 		3C0040991F21AC44007DFB6D /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0040981F21AC44007DFB6D /* FieldSurvey.swift */; };
+		3C00409B1F21E91B007DFB6D /* FieldSurveyJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C00409A1F21E91B007DFB6D /* FieldSurveyJSONParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3C0040921F21A497007DFB6D /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 		3C0040961F21A887007DFB6D /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
 		3C0040981F21AC44007DFB6D /* FieldSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = "<group>"; };
+		3C00409A1F21E91B007DFB6D /* FieldSurveyJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				3C0040921F21A497007DFB6D /* field_observations.json */,
 				3C0040961F21A887007DFB6D /* Survey.swift */,
 				3C0040981F21AC44007DFB6D /* FieldSurvey.swift */,
+				3C00409A1F21E91B007DFB6D /* FieldSurveyJSONParser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				3C0040611F219FCE007DFB6D /* ViewController.swift in Sources */,
 				3C0040971F21A887007DFB6D /* Survey.swift in Sources */,
 				3C00405F1F219FCE007DFB6D /* AppDelegate.swift in Sources */,
+				3C00409B1F21E91B007DFB6D /* FieldSurveyJSONParser.swift in Sources */,
 				3C0040671F219FCE007DFB6D /* FieldSurvey.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +535,7 @@
 				3C0040881F219FCE007DFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0040891F219FCE007DFB6D /* Build configuration list for PBXNativeTarget "FieldSurveyTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +544,7 @@
 				3C00408B1F219FCE007DFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C00408C1F219FCE007DFB6D /* Build configuration list for PBXNativeTarget "FieldSurveyUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +553,7 @@
 				3C00408E1F219FCE007DFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
