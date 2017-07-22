@@ -1,5 +1,5 @@
 //
-//  Survey.swift
+//  Classification.swift
 //  FieldSurvey
 //
 //  Created by Shiyifan on 21/07/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum Field: String {
+enum Classification: String {
     case amphibian
     case bird
     case fish
