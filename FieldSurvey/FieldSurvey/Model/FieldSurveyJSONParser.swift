@@ -21,7 +21,7 @@ class FieldSurveyJSONParser{
             let status = root["status"] as? String,
             status == "ok"{
             
-            if let observations = root["surveys"] as? [Any]{
+            if let observations = root["observations"] as? [Any]{
                 for observation in observations{
                     if let observation = observation as? [String: String]{
                         if let classificationName = observation["classification"],
